@@ -128,9 +128,6 @@ public class VectorHeap<E extends Comparable<E>>{
 		return minVal;
 	}
 	
-	/**
-	 * @return primer valor de la cola
-	 */
 	public E getFirst(){
 		return data.get(0);
 	}
